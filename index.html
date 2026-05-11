@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viaje a Roma - Nuño Varona Montero</title>
+    <style>
+        body {
+            background-color: #000000;
+            color: #ffffff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #1a1a1a;
+            padding: 40px 20px;
+            text-align: center;
+            border-bottom: 2px solid #d4af37;
+        }
+        h1 {
+            color: #d4af37;
+            margin: 0;
+            font-size: 2.5em;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        .intro-section {
+            text-align: center;
+            margin-bottom: 50px;
+            padding: 30px;
+            background-color: #111;
+            border-radius: 10px;
+            border: 1px solid #333;
+        }
+        .intro-section p {
+            font-size: 1.2em;
+        }
+        .highlight {
+            color: #d4af37;
+            font-weight: bold;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-bottom: 50px;
+        }
+        .gallery-item {
+            background-color: #1a1a1a;
+            border: 1px solid #333;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+        .gallery-item:hover {
+            transform: scale(1.03);
+            border-color: #d4af37;
+        }
+        .gallery-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            display: block;
+        }
+        .gallery-item-desc {
+            padding: 15px;
+            text-align: center;
+            font-size: 0.9em;
+            color: #ccc;
+        }
+        .links-section {
+            background-color: #1a1a1a;
+            padding: 30px;
+            border-radius: 10px;
+            border-left: 5px solid #d4af37;
+        }
+        .links-section h2 {
+            color: #d4af37;
+            margin-top: 0;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 15px;
+        }
+        a {
+            color: #4da6ff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+            color: #d4af37;
+        }
+        footer {
+            text-align: center;
+            padding: 30px;
+            font-size: 0.8em;
+            color: #666;
+            border-top: 1px solid #333;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Roma: La Ciudad Eterna</h1>
+    </header>
+
+    <div class="container">
+        <section class="intro-section">
+            <h2>Próxima Parada: Italia</h2>
+            <p>El alumno <span class="highlight">Nuño Varona Montero</span> va a viajar a Roma próximamente.</p>
+            <p>Es un destino al que <span class="highlight">tiene muchas ganas de ir</span> para sumergirse en su historia milenaria, su arte incomparable y su vibrante cultura.</p>
+        </section>
+
+        <h2 style="color: #d4af37; text-align: center;">Galería de Inspiración</h2>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Coliseo Romano">
+                <div class="gallery-item-desc">El imponente Coliseo Romano</div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1529260830199-42c24126f198?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Fontana di Trevi">
+                <div class="gallery-item-desc">La mágica Fontana di Trevi</div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1531572753322-ad063cecc140?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Plaza de España">
+                <div class="gallery-item-desc">Atardecer en la Plaza de España</div>
+            </div>
+        </div>
+
+        <section class="links-section">
+            <h2>Enlaces de Interés</h2>
+            <ul>
+                <li>🏛️ <strong>Historia:</strong> <a href="https://historia.nationalgeographic.com.es/temas/roma-antigua" target="_blank">National Geographic - Antigua Roma</a></li>
+                <li>🗺️ <strong>Turismo:</strong> <a href="https://www.turismoroma.it/es" target="_blank">Web Oficial de Turismo de Roma</a></li>
+                <li>🎨 <strong>Cultura:</strong> <a href="https://www.museivaticani.va/content/museivaticani/es.html" target="_blank">Museos Vaticanos - Sitio Oficial</a></li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <p>Proyecto Git creado por Nuño Varona Montero &copy; 2024</p>
+    </footer>
+
+</body>
+</html>
